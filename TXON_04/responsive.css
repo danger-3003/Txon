@@ -1,0 +1,125 @@
+@media (min-width:601px) and (max-width:900px)
+{
+    #first
+    {
+        height: 80vh;
+    }
+    .name
+    {
+        margin-top: 20vh;
+    }
+    .text-grad
+    {
+        font-size: 4vw;
+    }
+    .into
+    {
+        font-size: 2vw;
+    }
+    .name
+    {
+        margin-top: 24vh;
+        width: 40vw;
+        white-space: normal;
+    }
+    .profile
+    {
+        margin: 23vh 0vw;
+    }
+    .profile img
+    {
+        border-radius: 50%;
+        width: 28vw;
+        transition: 0.3s;
+        border: 5px solid white;
+    }
+    h1
+    {
+        font-size: 4.8vw;
+    }
+    .soft-skills
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        margin: 0vw 0vh 0vw 0vh;
+        justify-content: center;
+    }
+    .soft-main,.tech-main
+    {
+        height:120px;
+        width: 200px;
+        margin: 4vw;
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .soft
+    {
+        margin: -20px 0px 0px -25px;
+        width: 250px;
+        transition: 0.5s;
+    }
+    .soft:hover
+    {
+        margin: -10px 0px 10px -10px;
+        width: 220px;
+    }
+    #second p
+    {
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    .certificate
+    {
+        width: 45vw;
+        height: 30vw;
+    }
+    #fifth
+    {
+        margin: 0vh 7vh;
+    }
+    .about
+    {
+        font-size: 1.8vw;
+    }
+    .logo
+    {
+        margin: 4vh 5vh 9vh 5vh;
+        padding-left:5vh;
+        border-left: 2px solid rgb(29, 183, 255);
+    }
+    .hi
+    {
+        width: 23vh;
+    }
+    .contact
+    {
+        color: white;
+        font-size: 2.5vh;
+        height: 30vh;
+        margin: 5vh;
+        padding-right: 0vh;
+    }
+    td
+    {
+        padding-bottom: 5px;
+    }
+    .icon-footer
+    {
+        margin:20px 35px 0px 5px;
+        font-size: 2vw;
+        cursor: pointer;
+    }
+    .created
+    {
+        padding: 2.5vw 0px 0px 0px ;
+    }
+}
+@media (max-width:600px) and (min-widht:100px)
+{
+    body
+    {
+        display: none;
+    }
+}

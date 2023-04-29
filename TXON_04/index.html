@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="hi.png" type="image/png">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="header">
+        <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 100;">NS</p>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle-icon">
+                    <div class="top_bar"></div>
+                    <div class="middle_bar"></div>
+                    <div class="bottom_bar"></div>
+            </label>
+        <section class="toggle">
+            <ul class="menu">
+                <li><a href="#first">Home</a></li>
+                <li><a href="#second">Skills</a></li>
+                <li><a href="#third">Certifications</a></li>
+                <li><a href="#fourth">Projects</a></li>
+                <li><a href="#fifth">About</a></li>
+            </ul>
+        </section>
+    </nav>
+    <section id="first">
+        <div id="first-div">
+            <div class="name">
+                <p class="text-grad">Hi There,<br>I'm <span class="main-name">Sumanth</span> Narem.</p>
+                <p class="into">I'm into Web Developer and <wbr> Python Developer|</p>
+                <div id="icons">
+                    <p>Contact me via :</p>
+                    <a href="https://in.linkedin.com/in/sumanth-narem-431a4524b?trk=people-guest_people_search-card" target="_blank"><img src="Linkedin.png" class="icon"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCJDZBSWNpjXWWLrJcGtZGnhBHFGQpntjXchxqZwdzXNgtBzsZPwSqFmxNgfwNRxGWMkFg" target="_blank"><img src="gmail.png" class="icon"></a>
+                    <a href="https://www.instagram.com/danger_3003/" target="_blank"><img src="Instagram.png" class="icon"></a>
+                    <a href="https://github.com/danger-3003" target="_blank" ><img src="github.png" class="icon"></a>
+                    <a href="https://www.facebook.com/sumanth.narem.5" target="_blank"><img src="facebook.png" class="icon"></a>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="profile.jpg" width="200px">
+            </div>
+        </div>
+    </section>
+    <section id="second"><br><br>
+        <center><h1>My Skills</h1></center>
+        <h2>Soft Skills</h2>
+        <div class="soft-skills">
+            <div class="soft-main">
+                <img src="communcation.png" class="soft">
+            </div>
+            <div class="soft-main">
+                <img src="time.png" class="soft">
+            </div>
+            <div class="soft-main">
+                <img src="problem-solving.png" class="soft">
+            </div>
+        </div>
+        <h2>Tech Skills</h2>
+        <div class="soft-skills">
+            <div class="tech-main">
+                <img src="c-lang.png" class="soft">
+            </div>
+            <div class="tech-main">
+                <img src="py.png" class="soft">
+            </div>
+            <div class="tech-main">
+                <img src="ht,css.png" class="soft">
+            </div>
+        </div>
+        <div class="skills">
+            <div class="line"><p class="htcj">HTML, Css, Js</p><p>90%<p></div>
+            <div class="bar1"></div>
+            <div class="line"><p class="python">Python</p><p>80%</p></div>
+            <div class="bar2"></div>
+            <div class="line"><p class="figma">Figma</p><p>75%</p></div>
+            <div class="bar3"></div>
+        </div>
+    </section>
+    <section id="third">
+        <br><br>
+        <center><h1>My Certifications</h1></center>
+        <div class="row">
+            <a href="Googel-Python.pdf" target="_blank" download="Googel-Python.pdf"><img src="google.PNG" class="certificate" alt=""></a>
+            <a href="IBM-Python.pdf" target="_blank" download="IBM-Python.pdf"><img src="Py-DS.PNG" class="certificate" alt=""></a>
+        </div>
+    </section>
+    <section id="fourth">
+        <br><br>
+        <center><h1>My Projects</h1></center>
+        <div id="my-projects">
+            <button class="right-button" onclick="scroll_right()"><i class="fas fa-angle-double-left"></i></button>
+            <div class="project">
+                <div class="card">
+                    <img src="projects/landing_page.PNG" class="proj-img">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dolores magnam maiores nesciunt libero eligendi!</p>
+                    <p><a href="https://danger-3003.github.io/txon_tasks/TXON_01/" target="_blank" class="link"> visit site...</a></p>
+                </div>
+                <div class="card">
+                    <img src="projects/calculator.PNG" class="proj-img">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, fugit.lorem5 Lorem ipsum dolor sit amet.</p>
+                    <p><a href="https://danger-3003.github.io/txon_tasks/TXON_02/" target="_blank" class="link"> visit site...</a></p>
+                </div>
+                <div class="card">
+                    <img src="projects/to-do list.PNG" class="proj-img">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, fugit.lorem5 Lorem ipsum dolor sit amet.</p>
+                    <p><a href="https://danger-3003.github.io/txon_tasks/TXON_03/" target="_blank" class="link"> visit site...</a></p>
+                </div>
+                <div class="card">
+                    <img src="projects/my_portfolio.PNG" class="proj-img">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, fugit.lorem5 Lorem ipsum dolor sit amet.</p>
+                    <p><a href="" target="_blank" class="link"> visit site...</a></p>
+                </div>
+                <div class="card">
+                    <img src="projects/RaOne.PNG" class="proj-img">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, fugit.lorem5 Lorem ipsum dolor sit amet.</p>
+                    <p><a href="" target="_blank" class="link"> visit site...</a></p>
+                </div>
+            </div>
+            <button class="left-button" onclick="scroll_left()"><i class="fas fa-angle-double-right"></i></button>
+        </div>
+    </section>
+    <section id="fifth">
+        <br><br>
+        <center><h1>About Me</h1></center>
+        <p class="about">
+            Hello, I'm <span class="my-name">Sumanth Narem</span>, a 20-year-old guy from Visakhapatnam. I am currently a third-year student pursuing a B Tech degree in CSE. I am very interested in developing logic and solving problems. 
+            I am having good knowledge in Web Technology. A few of my own Web pages, as well as a real-time project, have been created by me.
+        </p>
+        <p class="about">
+            In addition to my knowledge of Web Technology, I am also proficient in Python. I am a Google certified student in Python. As a result of my experience with Python, I have created my own Voice Assistant called <a href="#" class="raone">RaOne</a>.</p>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <p style="font-size: 3.7vh;" >Contact me -</p>
+                <br>
+                <table>   
+                    <tr>
+                        <td>
+                            <p>Gmail </p>
+                        </td>
+                        <td style="padding-left: 15px;">
+                            : <a style="color:red;" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWLTXvfTLwftrfmbjGbdDDxFxjPQTsPnhVhzhgtHjThxLRrxmhbrchTWxXQGKzsNjPsGc">naremsumanth@gmail.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Call me</p>
+                        </td>
+                        <td  style="padding-left:15px;">
+                            <p>: +91 8519839971</p>
+                        </td>
+                    </tr>
+                </table>
+                <a href="https://in.linkedin.com/in/sumanth-narem-431a4524b?trk=people-guest_people_search-card" target="_blank"><i class="fa-brands fa-linkedin icon-footer" style="color: #ffffff;"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWLTXvfTLwftrfmbjGbdDDxFxjPQTsPnhVhzhgtHjThxLRrxmhbrchTWxXQGKzsNjPsGc" target="_blank"><i class="fa-regular fa-envelope icon-footer" style="color: #ffffff;"></i></a>
+                <a href="https://github.com/danger-3003" target="_blank"><i class="fa-brands fa-github icon-footer" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/danger_3003/" target="_blank"><i class="fa-brands fa-instagram icon-footer" style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/sumanth.narem.5" target="_blank"><i class="fa-brands fa-facebook icon-footer" style="color: #ffffff;"></i></a>
+                <p class="created"><span class="line">|</span> Created by Sumanth Narem.</p>
+            </div>
+            <div class="logo">
+                <img src="hi.png" class="hi">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

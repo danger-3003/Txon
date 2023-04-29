@@ -1,0 +1,199 @@
+@media (max-width:860px) and (min-width:425px)
+{
+    .toggle
+    {
+        background:linear-gradient(60deg,blue,rgb(0, 0, 86));
+        width: 30vw;
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+        position: fixed;
+        top: 0px;
+        transform: translateX(-30vw);
+        clip-path: circle(0% at 0 0);
+        transition: all 0.5s ease;
+    }
+    .menu
+    {
+        margin-top: 20vh;
+    }
+    .menu li 
+    {
+        display: block;
+        margin: 0px;
+        color: white;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+    .menu li a
+    {
+        color: aliceblue;
+        margin: 0PX;
+        text-decoration: none;
+        display: block;
+        font-size: 2.5vw;
+        padding: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu li:hover
+    {
+        background-color: white;
+        border-bottom: 2px solid rgba(7, 0, 73, 0.561)
+    }
+    .menu li a:hover
+    {
+        color: blue;
+        border-bottom: none;
+    }
+    #checkbox:checked ~ .toggle
+    {
+        
+        transform: translateX(0vw);
+        clip-path: circle(100%);
+    }
+    .toggle-icon
+    {
+        display: block;
+        position: absolute;
+        top:15px;
+        left: 2vw;
+        cursor: pointer;
+        width: 20px;
+        transition: 0.5s;
+    }
+    .toggle-icon div
+    {
+        background: linear-gradient(to right,rgb(54, 54, 255),rgb(0, 0, 61));
+        width: 23px;
+        height: 4px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .middle_bar
+    {
+        margin: 4px 0px;
+    }
+    #checkbox:checked ~ .toggle-icon
+    {
+        left: 24vw;
+    }
+    #checkbox:checked ~ .toggle-icon div
+    {
+        background: linear-gradient(to right,rgb(251, 255, 0),rgb(0, 251, 255));
+    }
+    #checkbox:checked ~ .toggle-icon .top_bar
+    {
+        position: relative;
+        top: 10px;
+        width: 25px;
+        transform: rotate(50deg);
+    }
+    #checkbox:checked ~ .toggle-icon .middle_bar
+    {
+        display: none;
+    }
+    #checkbox:checked ~ .toggle-icon .bottom_bar
+    {
+        position: relative;
+        top: 6px;
+        width: 25px;
+        transform: rotate(135deg);
+    }
+}
+@media (max-width:424px) and (min-width:0px)
+{
+    .toggle
+    {
+        background:linear-gradient(60deg,blue,rgb(0, 0, 86));
+        width: 40vw;
+        height: 100vh;
+        overflow: hidden;
+        text-align: center;
+        clip-path: circle(0% at 0 0);
+        transition: all 0.5s ease;
+    }
+    .menu
+    {
+        margin-top: 20vh;
+    }
+    .menu li 
+    {
+        display: block;
+        margin: 0px;
+        color: white;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+    .menu li a
+    {
+        color: aliceblue;
+        margin: 0PX;
+        text-decoration: none;
+        display: block;
+        font-size: 2.5vw;
+        padding: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu li:hover
+    {
+        background-color: white;
+        border-bottom: 2px solid rgba(7, 0, 73, 0.561)
+    }
+    .menu li a:hover
+    {
+        color: blue;
+        border-bottom: none;
+    }
+    #checkbox:checked ~ .toggle
+    {
+        clip-path: circle(100%);
+    }
+    .toggle-icon
+    {
+        display: block;
+        position: absolute;
+        top:15px;
+        left: 2vw;
+        cursor: pointer;
+        width: 20px;
+        transition: 0.5s;
+    }
+    .toggle-icon div
+    {
+        background: linear-gradient(to right,rgb(54, 54, 255),rgb(0, 0, 61));
+        width: 20px;
+        height: 3px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .middle_bar
+    {
+        margin: 4px 0px;
+    }
+    #checkbox:checked ~ .toggle-icon
+    {
+        left: 30vw;
+    }
+    #checkbox:checked ~ .toggle-icon div
+    {
+        background: linear-gradient(to right,rgb(251, 255, 0),rgb(0, 251, 255));
+    } 
+    #checkbox:checked ~ .toggle-icon .top_bar
+    {
+        position: relative;
+        top: 9px;
+        width: 23px;
+        transform: rotate(50deg);
+    }
+    #checkbox:checked ~ .toggle-icon .middle_bar
+    {
+        display: none;
+    }
+    #checkbox:checked ~ .toggle-icon .bottom_bar
+    {
+        position: relative;
+        top: 6px;
+        width: 23px;
+        transform: rotate(130deg);
+    }
+}
